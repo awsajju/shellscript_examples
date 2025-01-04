@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "enter the file name"
-read file
+read fname
 
-if [ -w $file ];then
+if [ -w $fname ];then
     echo "file writable"
 else
     echo "file not worteble"
