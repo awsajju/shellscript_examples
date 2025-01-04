@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "enter the file name"
+echo "enter the fname"
 read fname
 
 if [ -w $fname ];then
