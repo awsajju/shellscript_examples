@@ -11,7 +11,7 @@ else
 fi
 name
 
-if [ ls -ltr | $fname ];then
+if [ $(ls -ltr) | $fname ];then
   echo "file writable"
 else
     echo "file not worteble"
