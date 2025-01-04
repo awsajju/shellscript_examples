@@ -2,11 +2,12 @@
 
 #checking email
 
-echo "Enter your email"
+echo "enter your email"
 read email
 
-if [[ $email =~ ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ ]];then
-    echo "valid email"
+if [[ $email =~ ^[a-zA-Z0-9._+%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ ]];then
+    echo "valid EMail"
 else
-    echo "invalid email"
+  echo "Inavlid email"
+
 fi
