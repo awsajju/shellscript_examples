@@ -3,6 +3,6 @@
 #removing the spaces form the given string
 
 echo "Entre the str"
-fread str
+read str
 
 echo "removing space:" ${str// /}
